@@ -1,0 +1,68 @@
+/* Custom CSS for monitoring
+----------------------------------*/
+.monitor {
+	border: solid 1px #cccccc;
+	background: #000000;
+	color: #ffffff;
+	padding: 4px;
+	height: 600px;
+	overflow: auto;
+}
+
+/* CSS for title header 
+-------------------------*/
+.title {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* CSS for controller buttons 
+--------------------------------*/
+.control {
+	margin-top: 5px;
+}
+
+/* Custom CSS for event table
+----------------------------------*/
+#eventTable {
+    border: 0px solid; 
+    width: 100%; 
+    text-align:center;   
+}
+
+/* Menu style based on 
+http://jamesowers.co.uk/css-tutorials/50/horizontal-css-list-menu 
+----------------------------------------------------------------------------*/
+#menu {
+	width: 100%;
+	background-color: #333;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	text-decoration: none;
+	color: white;
+	padding: 10.5px 11px;
+	background-color: #333;
+}
+
+#menu ul li a:visited {
+	color: white;
+}
+
+#menu ul li a:hover,#menu ul li .current {
+	color: #fff;
+	background-color: #0b75b2;
+}
